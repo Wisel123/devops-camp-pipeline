@@ -46,9 +46,9 @@ pipeline {
                             echo err.getMessage()
                         }
                      }
-                    }
                 }
-            }            
+            }
+                       
         }
         stage('Test'){
             steps {
